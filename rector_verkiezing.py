@@ -16,3 +16,16 @@ class RectorStem(Stem):
     def __str__(self):
         return f"Stem op {self.kandidaat} (Rector: {self.faculteit})"
     
+lijst_kandidaten = [
+    RectorKandidaat("Jean", "Wiskunde"),
+    RectorKandidaat("Jef", "Natuurkunde"),
+    RectorKandidaat("BOBO", "Scheikunde"),
+]
+
+lijst_kiezers = [
+    RectorStem("Jiji", "Wiskunde"),
+    RectorStem("Lili", "Natuurkunde"),   
+    RectorStem("Char", "Scheikunde"),
+    RectorStem("Dave", "Wiskunde")
+]
+
