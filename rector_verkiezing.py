@@ -28,4 +28,5 @@ lijst_kiezers = [
     RectorStem("Char", "Scheikunde"),
     RectorStem("Dave", "Wiskunde")
 ]
-
+print(lijst_kandidaten)
+print(lijst_kiezers)
