@@ -30,3 +30,4 @@ lijst_kiezers = [
 ]
 print(lijst_kandidaten)
 print(lijst_kiezers)
+print(lijst_kiezers)
